@@ -13,7 +13,7 @@ You can use animation when modal appear and/or disappear.
 It automatically search modal with class modal and set the event itself.
 
 ```
-<div class="modal" data-animate-in='animate__zoomInUp' data-animate-out='animate__flipOutY' tabindex="-1" role="dialog" id='bigModal'>
+<div class="modal" data-animate-in='animate__zoomInUp' data-animate-out='animate__flipOutY'>
 	...
 </div>
 ```
@@ -22,6 +22,8 @@ Attribute | Optional | Description
 ------------ | ------------- | -------------
 data-animate-in | optional | animate.css class name, animation happen when modal appear
 data-animate-out | optional | animate.css class name, animation happen when modal disappear
+
+
 
 If you add new modal after the page loaded, you can manually apply the event by using this function:
 ```
